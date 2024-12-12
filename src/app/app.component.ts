@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'template-driven-form';
+[x: string]: any;
+  user={
+    name:'',
+    email:'',
+    password:'',
+    
+  };
+
+onSubmit(){
+  console.log('Form Gönderildi, this.user')
+}
 }
